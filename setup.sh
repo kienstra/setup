@@ -33,5 +33,5 @@ git clone https://github.com/kienstra/dotfiles.git
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
-sudo cat 'source ~/.bashrc_custom' >> ~/.bashrc
+sudo echo 'source ~/.bashrc_custom' >> ~/.bashrc
 
