@@ -5,7 +5,7 @@ Customizes the Vagrant Ubuntu system. Thank you @balajis for this great setup, o
 This adds emacs 24 and bash aliases. Ssh into the vagrant box:
 
 ```sh
-cd [your_vagran_directory]
+cd [your_vagrant_directory]
 vagrant ssh
 cd $HOME
 git clone https://github.com/kienstra/setup.git

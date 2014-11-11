@@ -24,6 +24,8 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
+
+# get .emacs.d files and .bashrc_custom
 git clone https://github.com/kienstra/dotfiles/tree/vagrant
 # ln -sb dotfiles/.screenrc .
 #ln -sb dotfiles/.bash_profile .
