@@ -26,7 +26,7 @@ if [ -d .emacs.d/ ]; then
 fi
 
 # get .emacs.d files and .bashrc_custom
-git clone https://github.com/kienstra/dotfiles/tree/vagrant
+git clone https://github.com/kienstra/dotfiles.git
 # ln -sb dotfiles/.screenrc .
 #ln -sb dotfiles/.bash_profile .
 # ln -sb dotfiles/.bashrc .
